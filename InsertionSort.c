@@ -2,7 +2,7 @@
 int main()
 {
     int array[10];
-    int j, key, size;
+    int key, size;
 
     printf("Enter the number of elements in the array: ");
     scanf("%d", &size);
@@ -16,7 +16,7 @@ int main()
     for (int i = 1; i < size; i++)
     {
         key = array[i];
-        j = i - 1;
+        int j = i - 1;
 
         while (key < array[j] && j >= 0)
         {
