@@ -16,7 +16,7 @@ int main()
     for (int i = 1; i < n; i++)
     {
         key = array[i];
-        int j = i - 1;
+        int j = i-1;
      //   printf("%d %d \n", key,j);
 
 
@@ -30,9 +30,21 @@ int main()
     }
 
     printf("Sorted array in ascending order:\n");
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i<n; i++)
     {
         printf("%d ", array[i]);
     }
     printf("\n");
+}
+
+
+
+#include<stdio.h>
+int main(){
+
+
+
+
+
+    return 0;
 }
