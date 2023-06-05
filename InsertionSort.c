@@ -37,14 +37,3 @@ int main()
     printf("\n");
 }
 
-
-
-#include<stdio.h>
-int main(){
-
-
-
-
-
-    return 0;
-}

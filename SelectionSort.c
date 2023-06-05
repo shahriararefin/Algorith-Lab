@@ -2,9 +2,13 @@
 int main(){
 
     int n,i;
+
+    printf("Enter the array size: ");
     scanf("%d",&n);
 
-    int arr[21];
+    int arr[n];
+
+    printf("Enter array elements: ");
     for ( i = 0; i < n; i++)
     {
         scanf("%d",&arr[i]);
